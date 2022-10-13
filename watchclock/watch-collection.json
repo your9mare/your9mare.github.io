@@ -2,7 +2,7 @@
     "version" : "0.1",
     "data root" : "https://i.ibb.co",
     "models" : {
-        "F.P.Journe Souverain" : {
+        "F.P.Journe Souverain2" : {
             "face" : {
                 "image" : "ss0gVdX/FP-SV-face.png",
                 "x" : "293",
@@ -50,7 +50,7 @@
                 "power reserve" : "56hr",
             }
         }
-        "F.P.Journe Bleu" : {
+        "F.P.Journe Bleu2" : {
             "face" : {
                 "image" : "FP-BL-face.png",
                 "x" : "304",
