@@ -1,0 +1,25 @@
+{
+    "title": "Hello Kitty",
+    "version": "0.1",
+    "data root": ".",
+	"models": {
+        "Hello Kitty": {
+            "face": {                
+                "image" : "HelloKitty-face.png",
+                "small image" : "HelloKitty.small.png",
+                "x" : "319",
+                "y" : "380",
+                "rx" : "319",
+                "ry" : "380",
+            }
+            "hour": {                
+                "image" : "HelloKitty-hour.png",
+                "small image" : "HelloKitty-hour.small.png",
+                "x" : "319",
+                "y" : "380",
+                "rx" : "25",
+                "ry" : "160",
+            }
+        }
+    }                
+}

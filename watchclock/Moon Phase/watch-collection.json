@@ -1,0 +1,44 @@
+{
+    "version" : "0.6",
+    "data root": "https://watchclock.lazybarn.com",
+    "models" : {
+        "Moon Phase" : {
+            "face" : {
+                "image" : "moon-day15.png",
+                "small image" : "moon-day15.small.png",
+                "missing moon" : ["6", "10", "14", "16", "19", "21", "24", "27"],
+                "x" : "375",
+                "y" : "375",
+                "rx" : "375",
+                "ry" : "375",
+            }
+            "sec" : {
+                "image" : "moon-star.png",
+                "small image" : "moon-star.small.png",
+                "x" : "375",
+                "y" : "375",
+                "rx" : "18",
+                "ry" : "366",
+            }
+            "hour" : {
+                "image" : "moon-dipperstar.png",
+                "small image" : "moon-dipperstar.small.png",
+                "x" : "375",
+                "y" : "375",
+                "rx" : "45",
+                "ry" : "471",
+            }
+            "subtitle" : {
+                "font" : "24",
+                "small font" : "12",
+                "text": "Lunar Phase {moonday}\n{date}\n{moonphase}",
+                "x" : "450",
+                "y" : "750",
+            }
+            "spec" : {
+                "image" : "moon-preview.png",
+            }
+        }
+    }
+}
+        

@@ -1,93 +1,93 @@
 {
     "version" : "0.1",
-    "data root" : "https://i.ibb.co",
+    "data root" : "https://watchclock.lazybarn.com",
     "models" : {
-        "F.P.Journe Souverain2" : {
-            "face" : {
-                "image" : "ss0gVdX/FP-SV-face.png",
-                "x" : "293",
-                "y" : "339",
-                "rx" : "293",
-                "ry" : "339",
+        "Vacheron Historiques 1921": {
+            "face": {
+                "image" : "VC-H1921-face.png",
+                "small image" : "VC-H1921-face.small.png",
+                "x" : "218",
+                "y" : "252",
+                "rx" : "218",
+                "ry" : "252",
             }
-            "hour" : {
-                "image" : "FP-SV-hour.png",
-                "x" : "293",
-                "y" : "339",
-                "rx" : "22",
-                "ry" : "144",
+            "hour": {
+                "image" : "VC-H1921-hour.png",
+                "small image" : "VC-H1921-hour.small.png",
+                "x" : "218",
+                "y" : "252",
+                "rx" : "12",
+                "ry" : "82",
             }
-            "min" : {
-                "image" : "FP-SV-min.png",
-                "x" : "293",
-                "y" : "339",
-                "rx" : "20",
-                "ry" : "229",
+            "min": {
+                "image" : "VC-H1921-min.png",
+                "small image" : "VC-H1921-min.small.png",
+                "x" : "218",
+                "y" : "252",
+                "rx" : "9",
+                "ry" : "120",
             }
-            "smallsec" : {
-                "image" : "FP-SV-smallsec.png",
-                "x" : "222",
-                "y" : "422",
-                "rx" : "13",
-                "ry" : "70",
+            "smallsec": {
+                "image" : "VC-H1921-smallsec.png",
+                "small image" : "VC-H1921-smallsec.small.png",
+                "x" : "287",
+                "y" : "320",
+                "rx" : "9",
+                "ry" : "60",
             }
-            "power" : {
-                "image" : "FP-SV-power.png",
-                "x" : "487",
-                "y" : "340",
-                "rx" : "11",
-                "ry" : "114",
-                "empty angle" : "305",
-                "full angle" : "235",
-                "full hour" : "56",
-            }
-            "spec" : {
-                "image" : "FP-SV-preview.png",
-                "price" : "$64,500",
-                "case size" : "40mm",
-                "thickness" : "8mm",
-                "movement" : "Manual FP1304",
-                "power reserve" : "56hr",
+            "spec": {
+                "image" : "VC-H1921-preview.png",
+                "price" : "$36,000",
+                "case size" : "36mm",
+                "thickness" : "7.4mm",
+                "movement" : "Manual 4400",
+                "power reserve" : "65hr",
             }
         }
-        "F.P.Journe Bleu2" : {
+        "Moon Phase" : {
             "face" : {
-                "image" : "FP-BL-face.png",
-                "x" : "304",
-                "y" : "336",
-                "rx" : "304",
-                "ry" : "336",
+                "image" : "moon-day15.png",
+                "small image" : "moon-day15.small.png",
+                "missing moon" : ["6", "10", "14", "16", "19", "21", "24", "27"],
+                "x" : "375",
+                "y" : "375",
+                "rx" : "375",
+                "ry" : "375",
+            }
+            "sec" : {
+                "image" : "moon-star.png",
+                "small image" : "moon-star.small.png",
+                "x" : "375",
+                "y" : "375",
+                "rx" : "18",
+                "ry" : "366",
             }
             "hour" : {
-                "image" : "FP-BL-hour.png",
-                "x" : "304",
-                "y" : "336",
-                "rx" : "20",
-                "ry" : "148",
+                "image" : "moon-hour.png",
+                "small image" : "moon-hour.small.png",
+                "x" : "375",
+                "y" : "375",
+                "rx" : "49",
+                "ry" : "420",
             }
             "min" : {
-                "image" : "FP-BL-min.png",
-                "x" : "304",
-                "y" : "336",
-                "rx" : "22",
-                "ry" : "235",
+                "image" : "moon-dipper.png",
+                "small image" : "moon-dipper.small.png",
+                "x" : "375",
+                "y" : "375",
+                "rx" : "49",
+                "ry" : "298",
             }
-            "smallsec" : {
-                "image" : "FP-BL-smallsec.png",
-                "x" : "231",
-                "y" : "424",
-                "rx" : "13",
-                "ry" : "68",
+            "subtitle" : {
+                "font" : "24",
+                "small font" : "12",
+                "text": "Lunar Phase {moonday}\n{date}\n{moonphase}",
+                "x" : "450",
+                "y" : "750",
             }
             "spec" : {
-                "image" : "FP-BL-preview.png",
-                "price" : "$10,000",
-                "case size" : "39mm",
-                "thickness" : "8.3mm",
-                "movement" : "Manual FP1304",
-                "power reserve" : "56hr",
+                "image" : "moon-preview.png",
             }
         }
     }
 }
-        
