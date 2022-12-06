@@ -36,7 +36,8 @@
                 "ry" : "60",
             }
             "spec": {
-                "image" : "VC-H1921-preview.png",
+                "front" : "VC-H1921-preview-front.png",
+                "back": "VC-H1921-preview-back.png",
                 "price" : "$36,000",
                 "case size" : "36mm",
                 "thickness" : "7.4mm",
