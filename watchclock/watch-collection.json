@@ -88,6 +88,74 @@
             }
             "spec" : {
                 "image" : "moon-preview.png",
+                "movement" : "Automatic Moon Phase",
+            }
+        }
+        "A.Lange Sohne Odysseus": {
+            "face": {
+                "image" : "ALS-OD-face.png",
+                "small image" : "ALS-OD-face.small.png",
+                "x" : "300.7",
+                "y" : "338",
+                "rx" : "300.7",
+                "ry" : "338",
+            }
+            "hour": {
+                "image" : "ALS-OD-hour.png",
+                "small image" : "ALS-OD-hour.small.png",
+                "x" : "300.7",
+                "y" : "338",
+                "rx" : "17",
+                "ry" : "164",
+            }
+            "min": {
+                "image" : "ALS-OD-min.png",
+                "small image" : "ALS-OD-min.small.png",
+                "x" : "300.7",
+                "y" : "338",
+                "rx" : "16",
+                "ry" : "231",
+            }
+            "smallsec": {
+                "image" : "ALS-OD-smallsec.png",
+                "small image" : "ALS-OD-smallsec.small.png",
+                "x" : "300.7",
+                "y" : "455",
+                "rx" : "11",
+                "ry" : "92",
+            }
+            "datedial ones": {
+                "image" : "ALS-OD-datedial-ones.png",
+                "small image" : "ALS-OD-datedial-ones.small.png",
+                "x" : "300.7",
+                "y" : "341",
+                "rx" : "211.5",
+                "ry" : "211.5",
+            }
+            "datedial tens": {
+                "image" : "ALS-OD-datedial-tens.png",
+                "small image" : "ALS-OD-datedial-tens.small.png",
+                "x" : "412",
+                "y" : "338",
+                "rx" : "59",
+                "ry" : "59",
+            }
+            "weekdial": {
+                "image" : "ALS-OD-weekdial.png",
+                "small image" : "ALS-OD-weekdial.small.png",
+                "x" : "180",
+                "y" : "275",
+                "rx" : "125",
+                "ry" : "125",
+            }
+            "spec": {
+                "front" : "ALS-OD-preview-front.png",
+                "back": "ALS-OD-preview-back.png",
+                "price" : "$84,000",
+                "case size" : "40.5mm",
+                "thickness" : "11.1mm",
+                "movement" : "Auto L155.1",
+                "power reserve" : "50hr",
             }
         }
     }
