@@ -14,16 +14,12 @@
             "hour": {
                 "image" : "VC-H1921-hour.png",
                 "small image" : "VC-H1921-hour.small.png",
-                "x" : "218",
-                "y" : "252",
                 "rx" : "12",
                 "ry" : "82",
             }
             "min": {
                 "image" : "VC-H1921-min.png",
                 "small image" : "VC-H1921-min.small.png",
-                "x" : "218",
-                "y" : "252",
                 "rx" : "9",
                 "ry" : "120",
             }
@@ -58,24 +54,18 @@
             "sec" : {
                 "image" : "moon-star.png",
                 "small image" : "moon-star.small.png",
-                "x" : "375",
-                "y" : "375",
                 "rx" : "18",
                 "ry" : "366",
             }
             "hour" : {
                 "image" : "moon-hour.png",
                 "small image" : "moon-hour.small.png",
-                "x" : "375",
-                "y" : "375",
-                "rx" : "49",
+               "rx" : "49",
                 "ry" : "420",
             }
             "min" : {
                 "image" : "moon-dipper.png",
                 "small image" : "moon-dipper.small.png",
-                "x" : "375",
-                "y" : "375",
                 "rx" : "49",
                 "ry" : "298",
             }
@@ -103,16 +93,12 @@
             "hour": {
                 "image" : "ALS-OD-hour.png",
                 "small image" : "ALS-OD-hour.small.png",
-                "x" : "300.7",
-                "y" : "338",
                 "rx" : "17",
                 "ry" : "164",
             }
             "min": {
                 "image" : "ALS-OD-min.png",
                 "small image" : "ALS-OD-min.small.png",
-                "x" : "300.7",
-                "y" : "338",
                 "rx" : "16",
                 "ry" : "231",
             }
@@ -131,6 +117,7 @@
                 "y" : "341",
                 "rx" : "211.5",
                 "ry" : "211.5",
+                "unit deg" : "18",
             }
             "datedial tens": {
                 "image" : "ALS-OD-datedial-tens.png",
@@ -156,6 +143,256 @@
                 "thickness" : "11.1mm",
                 "movement" : "Auto L155.1",
                 "power reserve" : "50hr",
+            }
+        }
+        "A.Lange Sohne Zeitwerk": {
+            "face": {
+                "image" : "ALS ZWK face.png",
+                "small image" : "ALS ZWK face.small.png",
+                "x" : "300",
+                "y" : "334",
+                "rx" : "300",
+                "ry" : "334",
+            }
+            "hourdial": {
+                "image" : "ALS ZWK hour.png",
+                "small image" : "ALS ZWK hour.small.png",
+                "rx" : "206",
+                "ry" : "205",
+                "unit deg": "-30",
+                "init deg": "-150",
+            }
+            "mindial ones": {
+                "image" : "ALS ZWK min ones.png",
+                "small image" : "ALS ZWK min ones.small.png",
+                "x" : "375",
+                "y" : "332",
+                "rx" : "135",
+                "ry" : "132",
+                "init deg": "-72",
+            }
+            "mindial tens": {
+                "image" : "ALS ZWK min tens.png",
+                "small image" : "ALS ZWK min tens.small.png",
+                "x" : "375",
+                "y" : "332",
+                "rx" : "88",
+                "ry" : "92",
+                "init deg": "60",
+            }
+            "smallsec": {
+                "image" : "ALS ZWK smallsec.png",
+                "small image" : "ALS ZWK smallsec.small.png",
+                "x" : "300.75",
+                "y" : "444.375",
+                "rx" : "7",
+                "ry" : "94",
+            }
+            "repeater hour": {
+                "image" : "ALS ZWK repeat hr.png",
+                "small image" : "ALS ZWK repeat hr.small.png",
+                "x" : "167",
+                "y" : "516",
+                "rx" : "77",
+                "ry" : "98",
+            }
+            "repeater min": {
+                "image" : "ALS ZWK repeat min.png",
+                "small image" : "ALS ZWK repeat min.small.png",
+                "x" : "439",
+                "y" : "516",
+                "rx" : "-3",
+                "ry" : "97",
+            }
+            "power": {
+                "image" : "ALS ZWK power.png",
+                "small image" : "ALS ZWK power.small.png",
+                "x" : "300.75",
+                "y" : "218.75",
+                "rx" : "9",
+                "ry" : "70",
+                "empty angle" : "305",
+                "full angle" : "72",
+                "full hour" : "36",
+            }
+            "repeater start" : {
+                "image" : "ALS ZWK button.png",
+                "small image" : "ALS ZWK button.small.png",
+                "x" : "23",
+                "y" : "123",
+                "rx" : "0",
+                "ry" : "0",
+            }
+            "spec": {
+                "front" : "ALS ZWK preview front.png",
+                "back": "ALS ZWK preview back.png",
+                "price" : "$300,000",
+                "case size" : "44.2mm",
+                "thickness" : "14.1mm",
+                "movement" : "Manual L043.5",
+                "power reserve" : "36hr",
+            }
+        }
+        "Rolex Daytona" : {
+            "face" : {
+                "image" : "RX-DT-face.png",
+                "small image" : "RX-DT-face.small.png",
+                "x" : "306",
+                "y" : "316",
+                "rx" : "306",
+                "ry" : "316",
+            }
+            "chrono" : {
+                "image" : "RX-DT-chrono.png",
+                "small image" : "RX-DT-chrono.small.png",
+                "rx" : "15",
+                "ry" : "217",
+            }
+            "smallsec" : {
+                "image" : "RX-DT-smallsec.png",
+                "small image" : "RX-DT-smallsec.small.png",
+                "x" : "305",
+                "y" : "433",
+                "rx" : "13",
+                "ry" : "72",
+            }
+            "chrmin" : {
+                "image" : "RX-DT-chrmin.png",
+                "small image" : "RX-DT-chrmin.small.png",
+                "x" : "414",
+                "y" : "310",
+                "rx" : "13",
+                "ry" : "72",
+            }
+            "chrhour" : {
+                "image" : "RX-DT-chrhour.png",
+                "small image" : "RX-DT-chrhour.small.png",
+                "x" : "194",
+                "y" : "310",
+                "rx" : "13",
+                "ry" : "72",
+            }
+            "min" : {
+                "image" : "RX-DT-min.png",
+                "small image" : "RX-DT-min.small.png",
+                "rx" : "13",
+                "ry" : "209",
+            }
+            "hour" : {
+                "image" : "RX-DT-hour.png",
+                "small image" : "RX-DT-hour.small.png",
+                "rx" : "16",
+                "ry" : "136",
+            }
+            "chrstart" : {
+                "image" : "RX-DT chrbtn start.png",
+                "small image" : "RX-DT chrbtn start.small.png",
+                "x" : "590",
+                "y" : "140",
+                "rx" : "0",
+                "ry" : "0",
+            }
+            "chrstop" : {
+                "image" : "RX-DT chrbtn reset.png",
+                "small image" : "RX-DT chrbtn reset.small.png",
+                "x" : "592",
+                "y" : "467",
+                "rx" : "0",
+                "ry" : "0",
+            }
+            "spec" : {
+                "front" : "RX-DT-preview-front.png",
+                "back" : "RX-DT-preview-back.png",
+                "price" : "$31,000",
+                "case size" : "40mm",
+                "thickness" : "12.5mm",
+                "movement" : "Auto 4130",
+                "power reserve" : "72hr",
+            }
+        }
+        "Parmigiani Fleurier Metrographe" : {
+            "face" : {
+                "image" : "PF-MG-face.png",
+                "small image" : "PF-MG-face.small.png",
+                "x" : "330",
+                "y" : "305",
+                "rx" : "330",
+                "ry" : "310",
+            }
+            "chrono" : {
+                "image" : "PF-MG-chrono.png",
+                "small image" : "PF-MG-chrono.small.png",
+                "rx" : "12",
+                "ry" : "245",
+            }
+            "smallsec" : {
+                "image" : "PF-MG-smallsec.png",
+                "small image" : "PF-MG-smallsec.small.png",
+                "x" : "437",
+                "y" : "305",
+                "rx" : "9",
+                "ry" : "29",
+            }
+            "chrmin" : {
+                "image" : "PF-MG-chrmin.png",
+                "small image" : "PF-MG-chrmin.small.png",
+                "x" : "227",
+                "y" : "310",
+                "rx" : "9",
+                "ry" : "63",
+            }
+            "month" : {
+                "image" : "PF-MG-month.png",
+                "small image" : "PF-MG-month.small.png",
+                "x" : "330",
+                "y" : "415",
+                "rx" : "13",
+                "ry" : "76",
+            }
+            "min" : {
+                "image" : "PF-MG-min.png",
+                "small image" : "PF-MG-min.small.png",
+                "rx" : "15",
+                "ry" : "217",
+            }
+            "hour" : {
+                "image" : "PF-MG-hour.png",
+                "small image" : "PF-MG-hour.small.png",
+                "rx" : "22",
+                "ry" : "154",
+            }
+            "datedial" : {
+                "image" : "PF-MG-datedial.png",
+                "small image" : "PF-MG-datedial.small.png",
+                "rx" : "201",
+                "ry" : "200",
+                "unit deg" : "8.33",
+                "double digit ratio": "1.5"
+            }
+            "chrstart" : {
+                "image" : "PF-MG chrbtn start.png",
+                "small image" : "PF-MG chrbtn start.small.png",
+                "x" : "628",
+                "y" : "125",
+                "rx" : "0",
+                "ry" : "0",
+            }
+            "chrstop" : {
+                "image" : "PF-MG chrbtn reset.png",
+                "small image" : "PF-MG chrbtn reset.small.png",
+                "x" : "629",
+                "y" : "392",
+                "rx" : "0",
+                "ry" : "0",
+            }
+            "spec" : {
+                "front" : "PF-MG-preview-front.png",
+                "back" : "PF-MG-preview-back.png",
+                "price" : "$5,950",
+                "case size" : "40mm",
+                "thickness" : "11.7mm",
+                "movement" : "Auto PF315",
+                "power reserve" : "40hr",
             }
         }
     }
