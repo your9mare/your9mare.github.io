@@ -18,14 +18,14 @@
             "min": {
                 "image" : "VC-H1921-min.png",
                 "small image" : "VC-H1921-min.small.png",
-                "rx" : "9",
-                "ry" : "120",
+                "rx" : "10",
+                "ry" : "122",
             }
             "smallsec": {
                 "image" : "VC-H1921-smallsec.png",
                 "small image" : "VC-H1921-smallsec.small.png",
-                "x" : "287",
-                "y" : "320",
+                "x" : "289",
+                "y" : "321",
                 "rx" : "9",
                 "ry" : "63",
             }
