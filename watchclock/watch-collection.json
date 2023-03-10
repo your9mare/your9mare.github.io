@@ -12,8 +12,8 @@
             "hour": {
                 "image" : "VC-H1921-hour.png",
                 "small image" : "VC-H1921-hour.small.png",
-                "rx" : "12",
-                "ry" : "82",
+                "rx" : "13",
+                "ry" : "83",
             }
             "min": {
                 "image" : "VC-H1921-min.png",
@@ -27,7 +27,7 @@
                 "x" : "287",
                 "y" : "320",
                 "rx" : "9",
-                "ry" : "61",
+                "ry" : "63",
             }
             "spec": {
                 "image" : "VC-H1921-preview-front.png",
@@ -576,5 +576,44 @@
             }
             "front face" : "F.P.Journe Bleu"
         }
+        "F.P.Journe Bleu" : {
+            "face" : {
+                "image" : "FP-BL-face.png",
+                "small image" : "FP-BL-face.small.png",
+                "x" : "304",
+                "y" : "336",
+                "rx" : "304",
+                "ry" : "336",
+            }
+            "hour" : {
+                "image" : "FP-BL-hour.png",
+                "small image" : "FP-BL-hour.small.png",
+                "rx" : "20",
+                "ry" : "148",
+            }
+            "min" : {
+                "image" : "FP-BL-min.png",
+                "small image" : "FP-BL-min.small.png",
+                "rx" : "22",
+                "ry" : "235",
+            }
+            "smallsec" : {
+                "image" : "FP-BL-smallsec.png",
+                "small image" : "FP-BL-smallsec.small.png",
+                "x" : "231",
+                "y" : "424",
+                "rx" : "13",
+                "ry" : "68",
+            }
+            "spec" : {
+                "image" : "FP-BL-preview-front.png",
+                "price" : "$100,000",
+                "case size" : "39mm",
+                "thickness" : "8.3mm",
+                "movement" : "Manual FP1304",
+                "power reserve" : "56hr",
+            }
+            "display back" : "F.P.Journe Bleu Back"
+        }
     }
-
+}
