@@ -6,10 +6,8 @@
             "face": {
                 "image" : "VC-H1921-face.png",
                 "small image" : "VC-H1921-face.small.png",
-                "x" : "218",
+                "x" : "220",
                 "y" : "252",
-                "rx" : "218",
-                "ry" : "252",
             }
             "hour": {
                 "image" : "VC-H1921-hour.png",
@@ -29,11 +27,10 @@
                 "x" : "287",
                 "y" : "320",
                 "rx" : "9",
-                "ry" : "60",
+                "ry" : "61",
             }
             "spec": {
-                "front" : "VC-H1921-preview-front.png",
-                "back": "VC-H1921-preview-back.png",
+                "image" : "VC-H1921-preview-front.png",
                 "price" : "$36,000",
                 "case size" : "36mm",
                 "thickness" : "7.4mm",
@@ -136,8 +133,7 @@
                 "ry" : "125",
             }
             "spec": {
-                "front" : "ALS-OD-preview-front.png",
-                "back": "ALS-OD-preview-back.png",
+                "image" : "ALS-OD-preview-front.png",
                 "price" : "$84,000",
                 "case size" : "40.5mm",
                 "thickness" : "11.1mm",
@@ -224,8 +220,7 @@
                 "ry" : "0",
             }
             "spec": {
-                "front" : "ALS ZWK preview front.png",
-                "back": "ALS ZWK preview back.png",
+                "image" : "ALS ZWK preview front.png",
                 "price" : "$300,000",
                 "case size" : "44.2mm",
                 "thickness" : "14.1mm",
@@ -301,8 +296,7 @@
                 "ry" : "0",
             }
             "spec" : {
-                "front" : "RX-DT-preview-front.png",
-                "back" : "RX-DT-preview-back.png",
+                "image" : "RX-DT-preview-front.png",
                 "price" : "$31,000",
                 "case size" : "40mm",
                 "thickness" : "12.5mm",
@@ -310,7 +304,7 @@
                 "power reserve" : "72hr",
             }
         }
-        "Parmigiani Fleurier Metrographe" : {
+        "Parmigiani Metrographe" : {
             "face" : {
                 "image" : "PF-MG-face.png",
                 "small image" : "PF-MG-face.small.png",
@@ -386,14 +380,201 @@
                 "ry" : "0",
             }
             "spec" : {
-                "front" : "PF-MG-preview-front.png",
-                "back" : "PF-MG-preview-back.png",
+                "image" : "PF-MG-preview-front.png",
                 "price" : "$5,950",
                 "case size" : "40mm",
                 "thickness" : "11.7mm",
                 "movement" : "Auto PF315",
                 "power reserve" : "40hr",
             }
+            "display back" : "Parmigiani Metrographe Back"
+        }
+        "Parmigiani Metrographe Back": {
+            "face" : {
+                "image" : "PF MG back.png",
+                "small image" : "PF MG back.small.png",
+                "x" : "299",
+                "y" : "314",
+           }
+           "front face" : "Parmigiani Metrographe"
+        }
+        "Seagull Repeater Back": {
+            "face": {
+                "image" : "SG RPT face.png",
+                "small image" : "SG RPT face.small.png",
+                "x" : "288",
+                "y" : "331",
+                "rx" : "288",
+                "ry" : "331",
+            }
+            "repeater hour": {
+                "image" : "SG RPT repeat hr.png",
+                "small image" : "SG RPT repeat hr.small.png",
+                "x" : "449",
+                "y" : "199",
+                "rx" : "185",
+                "ry" : "25",
+                "unit deg" : "-3",
+            }
+            "repeater min": {
+                "image" : "SG RPT repeat min.png",
+                "small image" : "SG RPT repeat min.small.png",
+                "x" : "449",
+                "y" : "199",
+                "rx" : "280",
+                "ry" : "38",
+                "unit deg" : "3",
+            }
+            "repeater start" : {
+                "image" : "SG RPT button.png",
+                "small image" : "SG RPT button.small.png",
+                "x" : "288",
+                "y" : "331",
+                "rx" : "289",
+                "ry" : "181",
+                "unit deg" : "-5",
+            }
+            "spec": {
+                "image" : "SG RPT preview front.png",
+                "price" : "$241,500",
+                "case size" : "46mm",
+                "thickness" : "15.7mm",
+                "movement" : "Automatic ST9250",
+                "power reserve" : "40hr",
+            }
+            "front face" : "Seagull Repeater",
+        }
+        "Seagull Repeater": {
+            "face": {
+                "image" : "SG PCR face.png",
+                "small image" : "SG PCR face.small.png",
+                "x" : "238",
+                "y" : "253.5",
+                "rx" : "238",
+                "ry" : "253.5",
+            }
+            "hour": {
+                "image" : "SG PCR hour.png",
+                "small image" : "SG PCR hour.small.png",
+                "rx" : "17",
+                "ry" : "92",
+            }
+            "min": {
+                "image" : "SG PCR min.png",
+                "small image" : "SG PCR min.small.png",
+                "rx" : "12",
+                "ry" : "134",
+            }
+            "weekhand": {
+                "image" : "SG PCR week.png",
+                "small image" : "SG PCR week.small.png",
+                "x" : "141",
+                "y" : "254",
+                "rx" : "8",
+                "ry" : "38",
+                "unit deg" : "51.43",
+            }
+            "datehand": {
+                "image" : "SG PCR date.png",
+                "small image" : "SG PCR date.small.png",
+                "x" : "334",
+                "y" : "258",
+                "rx" : "8",
+                "ry" : "36",
+                "init deg" : "11.25",
+                "unit deg" : "11.25",
+            }
+            "monthhand": {
+                "image" : "SG PCR month.png",
+                "small image" : "SG PCR month.small.png",
+                "x" : "240",
+                "y" : "159",
+                "rx" : "9",
+                "ry" : "41",
+                "unit deg" : "7.5",
+            }
+            "moondial": {
+                "image" : "SG PCR moon.png",
+                "small image" : "SG PCR moon.small.png",
+                "x" : "234.5",
+                "y" : "354.5",
+                "rx" : "59",
+                "ry" : "59",
+            }
+            "repeater start" : {
+                "image" : "SG PCR button.png",
+                "small image" : "SG PCR button.small.png",
+                "rx" : "238",
+                "ry" : "75.5",
+                "unit deg" : "5",
+            }
+            "spec": {
+                "image" : "SG RPT preview front.png",
+                "price" : "$241,500",
+                "case size" : "46mm",
+                "thickness" : "15.7mm",
+                "movement" : "Automatic ST9250",
+                "power reserve" : "40hr",
+            }
+            "display back" : "Seagull Repeater Back",
+        }
+        "F.P.Journe Bleu Back": {
+            "face": {
+                "image" : "FP BL backface.png",
+                "small image" : "FP BL backface.small.png",
+                "x" : "336",
+                "y" : "348",
+            }
+            "pallet fork": {
+                "image" : "FP BL pallet.png",
+                "small image" : "FP BL pallet.small.png",
+                "x" : "467",
+                "y" : "397",
+                "rx" : "30",
+                "ry" : "18"
+            }
+            "pallet top": {
+                "image" : "FP BL pallet top.png",
+                "small image" : "FP BL pallet top.small.png",
+                "x" : "467",
+                "y" : "397",
+                "rx" : "23",
+                "ry" : "34"
+            }
+            "balance wheel": {
+                "image" : "FP BL balance.png",
+                "small image" : "FP BL balance.small.png",
+                "x" : "482",
+                "y" : "346",
+                "rx" : "78",
+                "ry" : "79",
+                "unit deg" : "270"
+            }
+            "balance top": {
+                "image" : "FP BL balance top.png",
+                "small image" : "FP BL balance top.small.png",
+                "x" : "482",
+                "y" : "346",
+                "rx" : "151",
+                "ry" : "217"
+            }
+            "escape wheel": {
+                "image" : "FP BL escape.png",
+                "small image" : "FP BL escape.small.png",
+                "x" : "454",
+                "y" : "441",
+                "rx" : "41",
+                "ry" : "40"
+            }
+            "escape top": {
+                "image" : "FP BL escape top.png",
+                "small image" : "FP BL escape top.small.png",
+                "x" : "454",
+                "y" : "441",
+                "rx": "115",
+                "ry" : "28"
+            }
+            "front face" : "F.P.Journe Bleu"
         }
     }
-}
+
